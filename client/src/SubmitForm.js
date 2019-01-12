@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import Tags from './Tags.js'
-import './formStyles.css'
+import Tags from './Tags.js';
+import './formStyles.css';
+import { Link } from 'react-router-dom'; 
+
 class SubmitForm extends Component {
 
   state = {
@@ -8,6 +10,11 @@ class SubmitForm extends Component {
     textBody: '',
     tags: ''
   }
+
+  // handleSubmit = event => {
+  //   event.preventDefault();
+
+  // }
   render() {
     return (
       <div>
@@ -26,7 +33,7 @@ class SubmitForm extends Component {
           <Tags/>
           
         </label>
-        <button>Submit</button>
+        <button><Link to="/">Submit</Link></button>
         </form>
       </div>
     )
