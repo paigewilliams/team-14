@@ -3,7 +3,6 @@ import './App.css';
 import ListItem from './ListItem.js';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import SubmitForm from './SubmitForm.js';
-import Header from './Header.js';
 import Community from './Community.js';
 import SignIn from './SignIn';
 import RecipePage from './RecipePage';
@@ -55,13 +54,10 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-
         <Switch>
           <Route exact path="/form" component={SubmitForm}/>
           <Route exact path="/" component={Community}/>
           <Route exact path="/signin" component={SignIn}/>
-
-
         </Switch>
       </div>
       </Router>
