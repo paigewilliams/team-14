@@ -62,7 +62,6 @@ class App extends Component {
         <Route exact path="/signin" component={SignIn}/>
 
         </Switch>
-
       </div>
       </Router>
     );

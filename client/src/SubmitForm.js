@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Tags from './Tags.js'
+import './formStyles.css'
 class SubmitForm extends Component {
 
   state = {
@@ -14,11 +15,11 @@ class SubmitForm extends Component {
         <form onSubmit={this.handleSubmit}>
         <label>
           <h4>Title</h4>
-          <input type="text"/>
+          <input className="input"type="text"/>
         </label>
         <label>
           <h4>Body</h4>
-          <textarea></textarea>
+          <textarea className="input"></textarea>
         </label>
         <label>
           <h4>Tags</h4>
