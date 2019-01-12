@@ -51,12 +51,9 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-        
-          <Header/>
-      
+        <Header/>
         <Switch>
-        <Route exact path="/form" component={SubmitForm}/>
-
+          <Route exact path="/form" component={SubmitForm}/>
         </Switch>
       </div>
       </Router>
