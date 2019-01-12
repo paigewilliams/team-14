@@ -3,7 +3,6 @@ import './App.css';
 import ListItem from './ListItem.js';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import SubmitForm from './SubmitForm.js';
-import Header from './Header.js';
 import Community from './Community.js';
 import SignIn from './SignIn';
 import RecipePage from './RecipePage';
