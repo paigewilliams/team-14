@@ -83,6 +83,22 @@ img.mypic {
   max-width: 350px;
 }
 
+.postText {
+  text-align: left;
+}
+
+.postTranslated {
+  color: grey;
+  font-size: 12px;
+
+}
+
+.postComments {
+  color:blue;
+  font-size:12px;
+  text-align: right
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
